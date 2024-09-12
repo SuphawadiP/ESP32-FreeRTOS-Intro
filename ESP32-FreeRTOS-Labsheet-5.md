@@ -47,5 +47,8 @@ void My_First_Task(void * arg)
 โดยปกติเราจะใส่ชื่อ task handle เป็นอาร์กิวเมนต์สำหรับฟังก์ชัน `vTaskDelete()`, `vTaskSuspend()` และ `vTaskResume()`  แต่การใส่อาร์กิวเมนต์เป็น `NULL` เช่น  `vTaskSuspend(NULL);` จะหมายถึงการกระทำกับ task ผู้ออกคำสั่งเอง 
 
 4. รันและบันทึกผลจากโปรแกรมข้างบน วิเคราะห์ผลที่ได้ว่าเป็นอย่างไร
+![image](https://github.com/user-attachments/assets/743c8af6-2ca1-49a0-9a31-5a3bc4dec5ea)
+
+   การแสดงค่าตั้งแต่0-4จะมีการแสดงผลทั้งสองค่าเหทือนกัน เมื่อถึงค่าที่ 5-9 จะมีการแสดงแค่ค่าของ MyFirstTaskHandle ตั้งแต่ค่าที่ 10-14 จะมีการแสดงค่าทั้งสองค่าแต่ค่าของ MySecondTaskHandle จะแสดงค่าต่อจากค่าที่เคยมีการแสดงค่าล่าสุด และตั้งแค่ค่าที่ 15-19 จะมีการแสดงแค่ค่าของ MyFirstTaskHandle อีกครั้งแล้วแสดงผล MyFirstTaskHandle will suspend itself จากนั้นจะหยุดการแสดงผล
 
 ## [>> ต่อไป >>](./ESP32-FreeRTOS-Labsheet-6.md) 
