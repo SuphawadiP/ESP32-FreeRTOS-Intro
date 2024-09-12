@@ -67,6 +67,8 @@ void app_main(void)
 ```
 
 4. รันและบันทึกผลจากโปรแกรมข้างบน ได้ผลเหมือนหรือต่างกันอย่างไร
+![image](https://github.com/user-attachments/assets/b237e57d-2bd5-4fe3-bfa3-c44a0ab36ab5)
+   แสดงผลเหมือนเดิมไม่มีการเปลี่ยนแปลง
 --------
 ### หมายเหตุ API ของ xTaskCreatePinnedToCore
 ``` c
