@@ -33,4 +33,8 @@ void My_First_Task(void * arg)
 
 4. รันและบันทึกผลจากโปรแกรมข้างบน วิเคราะห์ผลที่ได้ว่าเป็นอย่างไร
 
+   ![image](https://github.com/user-attachments/assets/6e0de814-33c8-490a-8152-51e50c6e2252)
+
+จะมีการแสดงผลทั้งสองคำสั่งถึงตัวเลขที่4 เมื่อจะแสดงผลตั้งแต่ 5 เป็นต้นไปจะแสดงแค่ค่าของ MyFirstTaskHandle เท่านั้น
+
 ## [>> ต่อไป >>](./ESP32-FreeRTOS-Labsheet-5.md) 
